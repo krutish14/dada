@@ -1,0 +1,17 @@
+#include <iostream>  
+
+int main() {
+    int число; 
+    
+    std::cout << "Введите число: ";
+    
+    std::cin >> число;
+    
+    if (число % 2 == 0) {
+        std::cout << "Число чётное" << std::endl;
+    } else {
+        std::cout << "Число нечётное" << std::endl;
+    }
+    
+    return 0;  
+}
