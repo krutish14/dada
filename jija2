@@ -1,0 +1,22 @@
+import java.util.Scanner; 
+
+public class ЧётностьЧисла {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        
+        int число;
+        
+        System.out.print("Введите число: ");
+        
+        число = scanner.nextInt();
+        
+        if (число % 2 == 0) {
+            System.out.println("Число чётное");
+        } else {
+            System.out.println("Число нечётное");
+        }
+        
+        scanner.close();
+    }
+}
